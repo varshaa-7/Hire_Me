@@ -1,7 +1,20 @@
-@import 'global';
+@import 'global.scss';
 .navBox{
   width: 100vw;
-  height: 100px;
-  border: 2px solid red;
-  background-color: $orange;
+  height: 70px;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.navLinkBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.callToAction{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
