@@ -15,7 +15,8 @@ function Navbar(props) {
                 <div className='navItem'>Pricing</div>
                 </div>
                 <div className={styles.callToAction}>
-
+                    <button className={styles.loginBtn}>Login</button>
+                    <button className={styles.signupBtn}>Signup</button>
                 </div>
             </div>
         </>

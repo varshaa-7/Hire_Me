@@ -1,0 +1,42 @@
+@import "global";
+.subBox{
+  height: auto;
+  width: 500px;
+  background-color: $off-white;
+  display: flex;
+  align-items: center;
+  //justify-content: center;
+  flex-direction: row;
+  //border: 2px solid red;
+  padding: 6px;
+  border-radius: 10px;
+}
+.subInp{
+  width: 300px;
+  height: 30px;
+}
+.subBtn{
+  background-color:$orange;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  border: none;
+  margin: 0 10px;
+  border-radius: 10px;
+  color: $white;
+  font-size: 20px;
+}
+.google{
+  background-color: $grey;
+  width: 100px;
+  //width: auto;
+  height: 45px;
+  border: none;
+  margin: 0 10px;
+  border-radius: 10px;
+  color: $white;
+  font-size: 20px;
+  text-align: center;
+
+
+}
