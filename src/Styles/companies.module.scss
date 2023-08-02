@@ -1,0 +1,29 @@
+@import 'global';
+.mainBox{
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading{
+  font-size: 4rem;
+  font-weight: bold;
+  color:$grey;
+  text-align: center;
+}
+.companies{
+  height: 600px;
+  width: 80vw;
+//border: 2px solid red;
+  display: flex;
+  //align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.marqueeImg{
+  height: 50px;
+  margin: 40px;
+}
