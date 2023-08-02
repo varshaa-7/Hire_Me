@@ -1,0 +1,45 @@
+@import "global";
+.mainBox{
+  width: 100vw;
+  height: 400px;
+  //border: 2px solid $grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.innerBox {
+  width: 90vw;
+  height: 200px;
+  border-top: 1px solid $grey ;
+  border-bottom: 1px solid $grey ;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.items{
+  height: 200px;
+  width: 30%;
+  font-size: 3.5rem;
+  //border: 2px solid red;
+  font-weight: bold;
+  color:$grey;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+.items:nth-child(even){
+  border-left: 1px solid $grey ;
+  border-right: 1px solid $grey;
+  color:$orange;
+}
+.items:nth-child(1){
+  //border-left: 1px solid $grey ;
+  border-right: 1px solid $grey;
+}
+.items:nth-child(3){
+  border-left: 1px solid $grey ;
+  //border-right: 1px solid $grey;
+}
