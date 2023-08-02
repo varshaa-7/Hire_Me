@@ -5,6 +5,8 @@ import Hero from "./Components/Hero.jsx";
 import Achivements from "./Components/Achivements.jsx";
 import Loveus from "./Components/Loveus.jsx";
 import Companies from "./Components/Companies.jsx";
+import FeatureCard from "./Components/FeatureCard.jsx";
+import Reviews from "./Components/Reviews.jsx";
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,6 +17,7 @@ function App() {
         <Achivements/>
         <Loveus/>
         <Companies/>
+        <Reviews/>
     </>
   )
 }
