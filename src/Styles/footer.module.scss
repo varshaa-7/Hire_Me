@@ -1,0 +1,44 @@
+@import "global";
+.footer{
+  height: 70vh;
+  width: 100vw;
+  background-color: $light-black;
+  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+  margin-top: -150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.boxes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.box{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  //border: 2px solid red;
+}
+.heading{
+  font-size: 1.6rem;
+  color: $white;
+}
+.footerText{
+  font-size: 0.8rem;
+  color: $white;
+  font-weight: 700;
+}
+.icons{
+  background-color: $white;
+
+}
+.social{
+  height: 200px;
+  width: 400px;
+  //border: 2px solid red;
+}
