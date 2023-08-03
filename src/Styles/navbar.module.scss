@@ -1,11 +1,13 @@
 @import 'global.scss';
 .navBox{
   width: 100vw;
-  height: 70px;
-  background-color: $white;
+  height: 90px;
+  background-color:$white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  position: sticky;top: 0;
+  z-index: 5;
 
 }
 .navLinkBox{
@@ -13,8 +15,52 @@
   align-items: center;
   justify-content: center;
 }
+.navItems{
+  font-family: $font1;
+  font-size: 1.5rem;
+  padding: 10px;
+  color:$secondary-black;
+  font-weight: 700;
+
+}
+.navItems:hover{
+  color: $black;
+  cursor: pointer;
+}
 .callToAction{
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.logo{
+  height: 60px;
+  width: 130px;
+}
+.loginBtn{
+  //background-color:$orange;
+  font-family: $font1;
+  border: 2px solid $orange;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  //border: none;
+  margin: 0 10px;
+  border-radius: 10px;
+  color: $secondary-black;
+  font-size: 20px;
+}
+.signupBtn{
+  background-color:$dark-orange;
+  //border: 2px solid $orange;
+  font-family: $font1;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  border: none;
+  margin: 0 10px;
+  border-radius: 10px;
+  color: $off-white;
+  font-size: 20px;
+}
+
+

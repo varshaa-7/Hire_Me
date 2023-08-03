@@ -3,8 +3,7 @@ import styles from '../Styles/footer.module.scss'
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import { FaMailchimp } from "react-icons/fa";
-
+import { FiMail } from "react-icons/fi";
 function Footer(props) {
     const recData=[ "Overview" ,
     "Recruit Pro" ,
@@ -21,11 +20,13 @@ function Footer(props) {
         <>
         <div className={styles.footer}>
             <div className={styles.social}>
-                <FaTwitter color="white"/>
-                <FaInstagram color="white"/>
-                <FaLinkedin color="white"/>
-                <FaMailchimp color="white"/>
-
+                <img src='/public/hireMeWhite.png' color='white'/>
+                <div className={styles.iconBox}>
+                <FaTwitter className={styles.icon} />
+                <FaInstagram className={styles.icon}/>
+                <FaLinkedin className={styles.icon}/>
+                <FiMail className={styles.icon}/>
+                </div>
             </div>
             <div className={styles.boxes}>
                 <div className={styles.box}>

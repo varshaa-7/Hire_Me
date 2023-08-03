@@ -23,7 +23,7 @@
 }
 .heroInner{
   height: 300px;
-  width: 700px;
+  width: 800px;
   //background-color: $white;
   //border: 2px solid red;
   display: flex;
@@ -33,17 +33,19 @@
 
 }
 .heroText{
+font-family: $font1;
   font-size: 5rem;
-  font-weight: bold;
+  font-weight:700;
   color:$off-white;
   padding: 10px 0;
 }
 .heroSubText{
+  font-family: $font1;
   font-size: 1.5rem;
   color: $black;
   padding: 10px 0;
 
 }
 .sub{
-  margin-top: 50px;
+  margin-top: 10px;
 }

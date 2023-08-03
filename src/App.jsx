@@ -9,11 +9,15 @@ import FeatureCard from "./Components/FeatureCard.jsx";
 import Reviews from "./Components/Reviews.jsx";
 import Promise from "./Components/Promise.jsx";
 import Footer from "./Components/Footer.jsx";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 function App() {
   const [count, setCount] = useState(0)
 
+
+
   return (
     <>
+
         <Navbar/>
         <Hero/>
         <Achivements/>

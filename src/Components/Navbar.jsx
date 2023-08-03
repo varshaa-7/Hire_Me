@@ -4,15 +4,15 @@ function Navbar(props) {
     return (
         <>
             <div className={styles.navBox}>
-                <div className='logo'>
-                    <h2>LOGO</h2>
+                <div>
+                    <img  className={styles.logo}  src='/public/hireMe.png'/>
                 </div>
                 <div className={styles.navLinkBox}>
-                    <div className='navItem'>About</div>
-                <div className='navItem'>Product</div>
-                <div className='navItem'>Customers</div>
-                    <div className='navItem'>Resources</div>
-                <div className='navItem'>Pricing</div>
+                    <div className={styles.navItems}>About</div>
+                <div className={styles.navItems}>Product</div>
+                <div className={styles.navItems}>Customers</div>
+                    <div className={styles.navItems}>Resources</div>
+                <div className={styles.navItems}>Pricing</div>
                 </div>
                 <div className={styles.callToAction}>
                     <button className={styles.loginBtn}>Login</button>
@@ -24,3 +24,4 @@ function Navbar(props) {
 }
 
 export default Navbar;
+
