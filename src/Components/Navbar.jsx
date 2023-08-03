@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from '../Styles/navbar.module.scss'
 function Navbar(props) {
     return (
@@ -24,4 +24,5 @@ function Navbar(props) {
 }
 
 export default Navbar;
+
 

@@ -13,7 +13,7 @@ function Hero(props) {
                 <p className={styles.heroSubText}>Combine the power of collaborative hiring with AI automation to find, screen, and hire the best candidates.
                 </p>
                 <div className={styles.sub}><Subscribe/></div>
-
+                {/*<Subscribe/>*/}
             </div>
 
 

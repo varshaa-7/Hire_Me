@@ -19,6 +19,7 @@ function Footer(props) {
     return (
         <>
         <div className={styles.footer}>
+            {/*<div className={styles.inner}>*/}
             <div className={styles.social}>
                 <img src='/public/hireMeWhite.png' color='white'/>
                 <div className={styles.iconBox}>
@@ -59,6 +60,7 @@ function Footer(props) {
 
             </div>
         </div>
+        {/*</div>*/}
         </>
     );
 }

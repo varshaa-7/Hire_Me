@@ -63,4 +63,17 @@
   font-size: 20px;
 }
 
+@media screen and (max-width: 960px) {
+  .navLinkBox{
+    display: none;
+  }
+  .callToAction{
+    display: none;
+  }
+
+}
+
+
+
+
 

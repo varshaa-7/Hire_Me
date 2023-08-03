@@ -1,6 +1,7 @@
 @import "global";
 .cardOuter{
-  height: 500px;
+  min-height: 500px;
+  height: auto;
   width: 550px;
   background-color: $light-orange;
   border-radius: 40px;
