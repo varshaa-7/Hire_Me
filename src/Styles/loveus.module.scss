@@ -1,32 +1,58 @@
 @import "global";
 .outerBox{
-  height: 90vh;
+  min-height: 70vh;
+  height: auto;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  //border: 2px solid red;
+}
+.innerBox{
+  height: 520px;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  //border: 2px solid red;
+  //background-color:$light-orange;
+  border-radius: 40px;
 }
 .leftBox{
-  width: 600px;
-  min-height: 400px;
+  width: 650px;
+  min-height: 500px;
   height: auto;
   padding-left: 10%;
   //border: 2px solid red;
 }
+.recruterImg{
+  height: 100%;
+  width: 100%;
+}
 .rightBox{
-  width: 600px;
+  width: 450px;
+  min-height: 500px;
+  height: auto;
+  //border: 2px solid red;
+  display: flex;
+  align-items: center;
+}
+.textBox{
+  width: 350px;
   min-height: 400px;
   height: auto;
   //border: 2px solid red;
+
 }
 .heading{
   font-size: 3rem;
   font-weight: bold;
   color: $grey;
-  padding: 0 20% 10px 0;
+  //padding: 0 20% 10px 0;
 }
 .subHeading{
   font-size: 1.2rem;
-  padding: 0 30% 0 0;
+  //padding: 0 30% 0 0;
 }

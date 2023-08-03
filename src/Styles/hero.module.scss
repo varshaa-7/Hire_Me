@@ -1,14 +1,25 @@
 @import "global.scss";
 .heroBox{
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  clip-path: polygon(100% 0, 100% 60%, 50% 100%, 0 60%, 0 0);
+  clip-path: polygon(100% 0, 100% 60%, 0% 100%, 0 100%, 0 0);
   background-color: $dark-orange;
   text-align: center;
+}
+.heroBox::before {
+  content: "";
+  background-image: url('/public/rec4.svg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.15;
 }
 .heroInner{
   height: 300px;
