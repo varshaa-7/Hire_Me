@@ -22,7 +22,7 @@ function Reviews(props) {
     ]
     return (
         <>
-            <p className={styles.heading}>Hear from our users</p>
+            <div className={styles.heading} data-aos="fade-up" data-aos-duration='1000'>Hear from our users</div>
         <div className={styles.outerBox}>
             {data.map((data)=>(
                 <FeatureCard key={data.key} message={data.message} from={data.from}/>

@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from '../Styles/companies.module.scss'
 import Marquee from "react-fast-marquee";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Companies(props) {
     return (
         <>
-            <div className={styles.mainBox}>
-                <p className={styles.heading}>
+            <div className={styles.mainBox} data-aos="fade-up" data-aos-duration='1000'>
+                <p className={styles.heading} >
                     We are trusted <br/>by 100+ companies.
                 </p>
                 <div className={styles.companies}>

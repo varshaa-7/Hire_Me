@@ -3,7 +3,7 @@ import styles from '../Styles/featureCard.module.scss'
 function FeatureCard(props) {
     return (
         <>
-        <div className={styles.cardOuter}>
+        <div className={styles.cardOuter} data-aos="fade-up" data-aos-duration='1000'>
             <img src='/left-quote.png' className={styles.quotes}/>
             <p className={styles.mainText}>
                 {props.message}

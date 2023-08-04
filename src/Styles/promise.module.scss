@@ -7,8 +7,15 @@
   justify-content: center;
   flex-direction: column;
   background-color: $med-orange;
-  clip-path: polygon(0 0, 100% 25%, 100% 105%, 0% 100%);
+  clip-path: polygon(0 0, 100% 15%, 100% 105%, 0% 100%);
   //border: 8px solid red;
+}
+.innerBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
 .heading{
   font-size: min(3rem,40px);
@@ -25,7 +32,7 @@
 
 }
 .easier{
-  color: $light-black;
+  color: $grey;
 }
 .button{
   background-color: $grey;

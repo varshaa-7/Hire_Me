@@ -18,9 +18,9 @@ function Footer(props) {
     "Internet of Things (IoT) Jobs"]
     return (
         <>
-        <div className={styles.footer}>
+        <div className={styles.footer} >
             {/*<div className={styles.inner}>*/}
-            <div className={styles.social}>
+            <div className={styles.social} data-aos="fade-up" data-aos-duration='1000'>
                 <img src='/public/hireMeWhite.png' color='white'/>
                 <div className={styles.iconBox}>
                 <FaTwitter className={styles.icon} />
@@ -29,8 +29,8 @@ function Footer(props) {
                 <FiMail className={styles.icon}/>
                 </div>
             </div>
-            <div className={styles.boxes}>
-                <div className={styles.box}>
+            <div className={styles.boxes} data-aos="fade-up" data-aos-duration='1000' >
+                <div className={styles.box} >
                     <p className={styles.heading}>Popular Collections</p>
                     {recData.map((data)=>(
                         <p className={styles.footerText} key="key">{data}</p>
@@ -49,7 +49,7 @@ function Footer(props) {
                     ))}
                 </div>
 
-                <div className={styles.box}>
+                <div className={styles.box} >
                     <p className={styles.heading}>Popular Collections</p>
                     {recData.map((data)=>(
                         <p className={styles.footerText} key="key">{data}</p>
@@ -60,7 +60,6 @@ function Footer(props) {
 
             </div>
         </div>
-        {/*</div>*/}
         </>
     );
 }

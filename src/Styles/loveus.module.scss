@@ -33,7 +33,7 @@
   width: 100%;
 }
 .rightBox{
-  width: 450px;
+  width: min(500px,100%);
   min-height: 500px;
   height: auto;
   //border: 2px solid red;
@@ -44,7 +44,8 @@
   justify-content: center;
 }
 .textBox{
-  width: 350px;
+  min-width: 340px;
+  width: auto;
   min-height: 400px;
   height: auto;
   //border: 2px solid red;
