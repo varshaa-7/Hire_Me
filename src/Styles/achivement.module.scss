@@ -15,7 +15,6 @@
   min-height: 200px;
   height: auto;
   //border: 2px solid red;
-
   border-top: 1px solid $grey ;
   border-bottom: 1px solid $grey ;
   display: flex;
@@ -26,7 +25,7 @@
 }
 .items{
   height: 200px;
-  width: 450px;
+  width: 400px;
   font-family: $font1;
   font-size: min(3.5rem,10vw);
   //border: 2px solid red;

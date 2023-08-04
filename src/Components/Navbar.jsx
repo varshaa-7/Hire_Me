@@ -7,7 +7,7 @@ function Navbar(props) {
         <>
             <div className={ click===true?styles.navBoxResp: styles.navBox}>
                 <div>
-                    <img  className={styles.logo}  src='/public/hireMe.png'/>
+                    <img  className={styles.logo}  src='/hireMe.png'/>
                 </div>
                 <div className={ click===true? styles.navLinkBoxResp : styles.navLinkBox}>
                     <div className={styles.navItems}>About</div>

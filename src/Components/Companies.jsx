@@ -12,32 +12,32 @@ function Companies(props) {
                 </p>
                 <div className={styles.companies}>
                 <Marquee direction='right' speed='30'>
-                    <img src='/public/apple-11.svg' className={styles.marqueeImg}/>
-                    <img src='/public/coca-cola-2021.svg' className={styles.marqueeImg}/>
-                    <img src='/public/facebook.svg' className={styles.marqueeImg}/>
-                    <img src='/public/flipkart.svg' className={styles.marqueeImg}/>
-                    <img src='/public/microsoft.svg' className={styles.marqueeImg}/>
-                    <img src='/public/google-1-1.svg' className={styles.marqueeImg}/>
+                    <img src='/apple-11.svg' className={styles.marqueeImg}/>
+                    <img src='/coca-cola-2021.svg' className={styles.marqueeImg}/>
+                    <img src='/facebook.svg' className={styles.marqueeImg}/>
+                    <img src='/flipkart.svg' className={styles.marqueeImg}/>
+                    <img src='/microsoft.svg' className={styles.marqueeImg}/>
+                    <img src='/google-1-1.svg' className={styles.marqueeImg}/>
                 </Marquee>
                     <Marquee direction='left' speed='30'>
-                        <img src='/public/starbucks.svg' className={styles.marqueeImg}/>
-                        <img src='/public/skype-2.svg' className={styles.marqueeImg}/>
-                        <img src='/public/snapdeal.svg' className={styles.marqueeImg}/>
-                        <img src='/public/twitter-6.svg' className={styles.marqueeImg}/>
-                        <img src='/public/uber-2.svg' className={styles.marqueeImg}/>
-                        <img src='/public/ola-cabs.svg' className={styles.marqueeImg}/>
-                        <img src='/public/bmw-m-series.svg' className={styles.marqueeImg}/>
+                        <img src='/starbucks.svg' className={styles.marqueeImg}/>
+                        <img src='/skype-2.svg' className={styles.marqueeImg}/>
+                        <img src='/snapdeal.svg' className={styles.marqueeImg}/>
+                        <img src='/twitter-6.svg' className={styles.marqueeImg}/>
+                        <img src='/uber-2.svg' className={styles.marqueeImg}/>
+                        <img src='/ola-cabs.svg' className={styles.marqueeImg}/>
+                        <img src='/bmw-m-series.svg' className={styles.marqueeImg}/>
 
                     </Marquee>
 
                     <Marquee direction='right' speed='30'>
-                        <img src='/public/honda-9.svg' className={styles.marqueeImg}/>
-                        <img src='/public/phonepe-1.svg' className={styles.marqueeImg}/>
-                        <img src='/public/mediatek-logo.svg' className={styles.marqueeImg}/>
-                        <img src='/public/costa-3.svg' className={styles.marqueeImg}/>
-                        <img src='/public/tesla.svg' className={styles.marqueeImg}/>
-                        <img src='/public/hyundai.svg' className={styles.marqueeImg}/>
-                        <img src='/public/burger-king-4.svg' className={styles.marqueeImg}/>
+                        <img src='/honda-9.svg' className={styles.marqueeImg}/>
+                        <img src='/phonepe-1.svg' className={styles.marqueeImg}/>
+                        <img src='/mediatek-logo.svg' className={styles.marqueeImg}/>
+                        <img src='/costa-3.svg' className={styles.marqueeImg}/>
+                        <img src='/tesla.svg' className={styles.marqueeImg}/>
+                        <img src='/hyundai.svg' className={styles.marqueeImg}/>
+                        <img src='/burger-king-4.svg' className={styles.marqueeImg}/>
 
                     </Marquee>
 
