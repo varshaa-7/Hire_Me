@@ -10,7 +10,8 @@
   //border: 2px solid red;
 }
 .heading{
-  font-size: 4rem;
+  font-size: min(3rem,10vw);
+  padding: 10px;
   font-weight: bold;
   font-family: $font1;
   color:$grey;

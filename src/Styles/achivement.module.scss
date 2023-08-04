@@ -28,7 +28,7 @@
   height: 200px;
   width: 450px;
   font-family: $font1;
-  font-size: 3.5rem;
+  font-size: min(3.5rem,10vw);
   //border: 2px solid red;
   font-weight: bold;
   color:$grey;
