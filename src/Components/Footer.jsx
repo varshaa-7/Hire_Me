@@ -21,7 +21,7 @@ function Footer(props) {
         <div className={styles.footer} >
             {/*<div className={styles.inner}>*/}
             <div className={styles.social} data-aos="fade-up" data-aos-duration='1000'>
-                <img src='/hireMeWhite.png' color='white'/>
+                <img src='/recruitment/hireMeWhite.png' color='white'/>
                 <div className={styles.iconBox}>
                 <FaTwitter className={styles.icon} />
                 <FaInstagram className={styles.icon}/>

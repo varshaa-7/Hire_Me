@@ -4,7 +4,7 @@ function FeatureCard(props) {
     return (
         <>
         <div className={styles.cardOuter} data-aos="fade-up" data-aos-duration='1000'>
-            <img src='/left-quote.png' className={styles.quotes}/>
+            <img src='/recruitment/left-quote.png' className={styles.quotes}/>
             <p className={styles.mainText}>
                 {props.message}
             </p>
