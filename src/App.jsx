@@ -21,11 +21,11 @@ function App() {
         <Navbar/>
         <Hero/>
         <Achivements/>
-        <Loveus image='/public/recruter.svg'  heading="Why recruters love us?" message=" 8 million responsive and startup-ready candidates, with all the information you need to vet them.
+        <Loveus image='/recruter.svg'  heading="Why recruters love us?" message=" 8 million responsive and startup-ready candidates, with all the information you need to vet them.
                     Everything you need to kickstart your recruiting - get job posts, company branding, and HR tools set up within 10 minutes, for free.
                     A free applicant tracking system, or free integration with any ATS you may already use
                     Plus, we can do the vetting for you! With Curated, we review the worlds top tech talent and highlight candidates directly to you 2x a week."/>
-        <Loveus image='/public/rec3.svg' heading='What we provide' message="8 million responsive and startup-ready candidates, with all the information you need to vet them.
+        <Loveus image='/rec3.svg' heading='What we provide' message="8 million responsive and startup-ready candidates, with all the information you need to vet them.
                     Everything you need to kickstart your recruiting - get job posts, company branding, and HR tools set up within 10 minutes, for free.
                     A free applicant tracking system, or free integration with any ATS you may already use
                     Plus, we can do the vetting for you! With Curated, we review the worlds"/>
