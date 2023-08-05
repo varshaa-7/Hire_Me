@@ -11,3 +11,6 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 >>>>>>> e6bdfac (Project Setup and Navbar)
 # recruitment
+This is a simple landing page of a Recruitment website.
+
+Deployed on github pages : [http://madhurvatsal.xyz/recruitment/](http://madhurvatsal.xyz/recruitment/)
