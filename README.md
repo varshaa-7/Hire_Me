@@ -13,4 +13,4 @@ Currently, two official plugins are available:
 # recruitment
 This is a simple landing page of a Recruitment website.
 
-Deployed on github pages : [http://madhurvatsal.xyz/recruitment/](http://madhurvatsal.xyz/recruitment/)
+Deployed on github pages : [http://vatsalmadhur.github.io/recruitment/](http://vatsalmadhur.github.io/recruitment/)
